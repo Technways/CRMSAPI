@@ -32,7 +32,7 @@ namespace CRMS.DL.Repository
 
         public async Task<List<UserResponse>> GetAllUserDetailsAsync()
         {
-            string connectionString = "User Id=SYSTEM;Password=admin;Data Source=DESKTOP-6PD0NT9:1521/XE:SYSTEM";
+            string connectionString = "User Id=SYSTEM;Password=Shubham@1993;Data Source=localhost:1522/XE:SYSTEM";
             OracleConnection oracleConnection = null;
             List<UserResponse> userDetail = new List<UserResponse>();
             try
@@ -124,7 +124,7 @@ namespace CRMS.DL.Repository
 
         public async Task<UserResponse> GetUserDetailsAsync(int CustomerID)
         {
-            string connectionString = "User Id=SYSTEM;Password=admin;Data Source=DESKTOP-6PD0NT9:1521/XE:SYSTEM";
+            string connectionString = "User Id=SYSTEM;Password=Shubham@1993;Data Source=localhost:1522/XE:SYSTEM";
             OracleConnection oracleConnection = null;
             UserResponse userDetail = new UserResponse();
             try
